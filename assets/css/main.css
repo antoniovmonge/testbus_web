@@ -1566,7 +1566,7 @@ article:last-child {
 
 header.style1 {
   text-align: center;
-  padding: 3em 0 3em 0;
+  /* padding: 3em 0 3em 0; */
 }
 
 header.style1 h2 {
@@ -1946,7 +1946,7 @@ ul.actions.special {
 }
 
 .feature-list section {
-  border-top: solid 1px #eee;
+  /* border-top: solid 1px #eee; */
   padding-top: 3em;
   padding-left: 5em;
   position: relative;
@@ -2068,7 +2068,7 @@ ul.actions.special {
 
 .wrapper {
   position: relative;
-  padding: 6em 0 9em 0;
+  /* padding: 6em 0 9em 0; */
 }
 
 .wrapper .title {
@@ -2115,8 +2115,8 @@ ul.actions.special {
 }
 
 .wrapper.style1 {
-  background: #000000;
-  color: #eee;
+  background: #ffffff;
+  color: #000000;
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -2134,7 +2134,7 @@ ul.actions.special {
 .wrapper.style1 strong,
 .wrapper.style1 b,
 .wrapper.style1 a {
-  color: #fff;
+  color: #000000;
 }
 
 .wrapper.style2 {
@@ -2182,7 +2182,7 @@ ul.actions.special {
   justify-content: center;
   position: relative;
   height: 24em;
-  background: black;
+  background: rgb(255, 255, 255);
   background-size: cover;
   padding: 0;
 }
@@ -2197,7 +2197,7 @@ ul.actions.special {
 }
 
 .homepage #header {
-  height: 35em;
+  /* height: 35em; */
 }
 
 /* Logo */
@@ -2206,7 +2206,7 @@ ul.actions.special {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 1.5em;
+  top: 2em;
 }
 
 #logo img {
@@ -2217,22 +2217,23 @@ ul.actions.special {
     }
 
 #logo h1 {
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #fff;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  color: #000000;
   /* font-size: 2em; */
   font-size: 6em;
-  letter-spacing: 0.25em;
+  /* letter-spacing: 0.25em; */
 }
 
 #logo p {
   color: #eee;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(24, 24, 24);
   text-transform: uppercase;
   margin: 4em 0 6em 0;
   display: block;
   letter-spacing: 0.2em;
   font-size: 0.9em;
+  font-weight: 600;
 }
 
 /* Nav */
@@ -2356,7 +2357,7 @@ ul.actions.special {
 
 #intro p.style2 {
   font-weight: 700;
-  color: #fff;
+  color: #000000;
   border-radius: 0.35em;
   box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
   font-size: 2.75em;
@@ -2400,14 +2401,12 @@ ul.actions.special {
   letter-spacing: 0.05em;
 }
 
-/* Main */
-
 /* Footer */
 
 #footer {
-  background: #282b34;
-  color: #eee;
-  color: rgba(255, 255, 255, 0.5);
+  background: #ffffff;
+  color: #000000;
+  /* color: rgba(255, 255, 255, 0.5); */
   padding-bottom: 6em;
 }
 
@@ -2516,7 +2515,7 @@ ul.actions.special {
   text-align: center;
   padding-top: 6em;
   margin-top: 6em;
-  border-top: solid 1px rgba(255, 255, 255, 0.05);
+  /* border-top: solid 1px rgba(255, 255, 255, 0.05); */
 }
 
 #copyright ul {
@@ -3141,4 +3140,8 @@ ul.actions.special {
     margin-top: 0;
   }
 
+}
+
+.spaced {
+    word-spacing: 12px;
 }
